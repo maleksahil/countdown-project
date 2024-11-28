@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(30, 177, 210);
+    height: 100vh;
+}
+
+.container{
+    width: 550px;
+    height: 450px;
+}
+.header{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.header h2{
+    font-weight: 400;
+    color: #fff;
+}
+.main-content{
+    width: 100%;
+    height: auto;
+    padding: 50px 40px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 25px 31px rgba(0, 0, 0, 0.5);
+}
+
+.text-area{
+    text-align: center;
+    font-size: 25px;
+    color: #262626;
+    line-height: 1.5;
+}
+
+.main-content .writer{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+    font-style: 25px;
+}
+
+.main-content .button-area{
+    display: grid;
+    place-items: center;
+    margin-top: 20px;
+    padding: 10px 0px;
+}
+
+.button-area .btn button{
+    background-color: #262626;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 12px 15px;
+}
+
+.button-area .btn button:active{
+    background-color: deepskyblue;
+}
